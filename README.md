@@ -12,18 +12,3 @@ Does trade openness amplify FDI inflows within the single market?
 
 Do fiscal and institutional factors (e.g., debt, political stability) affect investor decisions?
 
-**Methodology**
-
-Panel data econometrics: Fixed Effects (FE) and Random Effects (RE) models
-
-Model selection: Hausman test (FE preferred)
-
-Data preparation:
-
-  1.Logarithmic transformations (to correct skewness/kurtosis)
-
-  2.Winsorization (1%–99%) to mitigate outliers
-  
-  3.Correlation analysis (multicollinearity checks)
-
-Robustness checks
