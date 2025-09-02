@@ -1,14 +1,30 @@
-# Determinants-of-Foreign-Direct-Investment-in-EU
-This repository presents an empirical study of the determinants of Foreign Direct Investment (FDI) in the European Union (EU) using a panel dataset of 27 countries from 2001 to 2025. The analysis investigates how market size, macroeconomic stability, trade openness, public debt, unemployment, and political stability influence FDI inflows across member states.
-The project is implemented in Stata, and the results are presented in a Jupyter Book / GitHub Pages format similar to a digital handbook.
+**Foreign Direct Investment in the EU: Determinants and Insights**
 
-**Research Motivation**
+Foreign Direct Investment (FDI) is central to economic integration, capital flows, and growth within the European Union. Yet, FDI is not evenly distributed across member states. Why do some economies consistently attract large inflows while others lag behind? This project investigates the economic and institutional determinants of FDI across 27 EU countries between 2001 and 2025, drawing on panel data and econometric analysis.
 
-FDI is a key driver of growth, technology transfer, and integration into global value chains. The EU, as one of the world’s largest and most integrated economic regions, provides a unique case for analyzing how different economic and institutional factors attract foreign investors. This study addresses three core questions:
+**Research Focus**
 
-Does market size (GDP) remain the strongest determinant of FDI in the EU?
+Examines the influence of market size, public debt, trade openness, unemployment, and political stability on FDI inflows.
 
-Does trade openness amplify FDI inflows within the single market?
+Evaluates whether political stability within the EU reduces the explanatory power of some commonly cited factors.
 
-Do fiscal and institutional factors (e.g., debt, political stability) affect investor decisions?
+**Methodology**
+
+Balanced panel dataset covering 27 EU member states, 2001–2025.
+
+Data processing includes log transformations and winsorization to manage skewness and outliers.
+
+Estimation strategies: Fixed Effects (FE) and Random Effects (RE) models, with the Hausman test guiding model selection.
+
+Robustness checks for heteroskedasticity and multicollinearity.
+
+**Main Findings**
+
+Market size and trade openness emerge as the strongest and most consistent drivers of FDI.
+
+Public debt significantly deters FDI, reflecting investors’ sensitivity to fiscal sustainability.
+
+Unemployment and political stability show weaker explanatory power, likely because EU membership already provides a baseline of institutional and political security.
+
+
 
