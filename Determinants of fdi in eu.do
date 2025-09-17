@@ -27,10 +27,11 @@ asdoc vif, append
 xtset ID Year
 estat hettest
 asdoc estat hettest, append
-asdoc xtreg log_fdi log_gdp log_pd log_to log_unemp log_polstb, fe
-asdoc xtreg log_fdi log_gdp log_pd log_to log_unemp log_polstb, fe append
+asdoc xtreg log_fdi log_gdp log_pd log_to log_unemp log_polstb i.year, fe
+asdoc xtreg log_fdi log_gdp log_pd log_to log_unemp log_polstb i.year, fe append
 estimate store fe
-asdoc xtreg log_fdi log_gdp log_pd log_to log_unemp log_polstb, re append
+asdoc xtreg log_fdi log_gdp log_pd log_to log_unemp log_polstb i.year, re append
 estimate store re
 asdoc hausman fe re, append
 outreg2 using "eg.doc", word append
+asdoc xtreg log_fdi log_gdp log_pd log_to log_unemp log_polstb i.year, fe vce(robust) append
