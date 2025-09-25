@@ -10,7 +10,7 @@ Evaluates whether political stability within the EU reduces the explanatory powe
 
 **Methodology**
 
-Balanced panel dataset covering 27 EU member states, 2001–2025.
+Balanced panel dataset covering 27 EU member states, 2000–2024.
 
 Data processing includes log transformations and winsorization to manage skewness and outliers.
 
