@@ -1,6 +1,6 @@
 **Foreign Direct Investment in the EU: Determinants and Insights**
 
-Foreign Direct Investment (FDI) is central to economic integration, capital flows, and growth within the European Union. Yet, FDI is not evenly distributed across member states. Why do some economies consistently attract large inflows while others lag behind? This project investigates the economic and institutional determinants of FDI across 27 EU countries between 2001 and 2025, drawing on panel data and econometric analysis.
+Foreign Direct Investment (FDI) is central to economic integration, capital flows, and growth within the European Union. Yet, FDI is not evenly distributed across member states. Why do some economies consistently attract large inflows while others lag behind? This project investigates the economic and institutional determinants of FDI across 27 EU countries between 2000 and 2024, drawing on panel data and econometric analysis.
 
 **Research Focus**
 
